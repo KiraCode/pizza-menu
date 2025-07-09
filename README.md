@@ -1,12 +1,47 @@
-# React + Vite
+## 🍕 React Pizza Menu App
+This is a simple React-based Pizza Menu application that dynamically displays a list of available pizzas along with their details such as name, ingredients, price, and availability status.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✅ Features:
+Displays a list of pizzas using a clean and modular component structure.
 
-Currently, two official plugins are available:
+Each pizza card shows:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🍕 Pizza name
 
-## Expanding the ESLint configuration
+🧾 Description (ingredients)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💵 Price
+
+❌ Marks as "Sold Out" if unavailable
+
+A footer that tells the user if the pizza shop is currently open or closed based on the system's time.
+
+⏰ Displays dynamic message like "We're currently open! Come visit or order online."
+
+🚫 Or shows "Sorry, we're closed. Please visit us during business hours."
+
+
+## 🖼️ UI Overview
+
+![Pizza-menu Screenshot](./public/pizzas/image.png)
+
+
+## 🛠️ Tech Stack
+
+- **REACTJS**
+- **HTML**
+- **CSS**
+- **JAVASCRIPT**
+
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://kiracode-pizza-menu.netlify.app/)
+
+
+## 📄 License
+
+MIT License
+
+Copyright (c) 2025 Tejas
+
+Open source under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
