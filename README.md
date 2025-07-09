@@ -23,7 +23,7 @@ A footer that tells the user if the pizza shop is currently open or closed based
 
 ## 🖼️ UI Overview
 
-![Pizza-menu Screenshot](./public/pizzas/image.png)
+![Pizza-menu Screenshot](./public/image.png)
 
 
 ## 🛠️ Tech Stack
